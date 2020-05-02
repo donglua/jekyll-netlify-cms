@@ -1,4 +1,4 @@
-[![](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/netlify/netlifycms)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ea9ab449-da89-48c9-869d-e310083df392/deploy-status)](https://app.netlify.com/sites/donglu-blog/deploys)
 
 # Jekyll + Netlify CMS with Netlify Identity
 
