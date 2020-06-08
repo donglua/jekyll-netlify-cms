@@ -8,6 +8,14 @@
   {% if jekyll.environment == 'production' and site.google_analytics %}
     {% include google-analytics.html %}
   {% endif %}
+ 
   <script src="https://identity-js.netlify.com/v1/netlify-identity-widget.js"></script>
-  <script type="text/javascript" src="inject_embed.dart.js" defer></script>
+
+  {% assign js_files = site.static_files | where: "js", true %}
+  {% for js in js_files %}
+  <script type="text/javascript">
+    // {% include {{ js.path }} %}
+  </script>
+  {% endfor %}
+
 </head>

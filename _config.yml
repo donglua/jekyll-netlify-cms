@@ -69,3 +69,14 @@ rss: rss
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+
+defaults:
+  - scope:
+      path: "assets/inject_embed.dart.js"
+    values:
+      js: true
+
+
+
+
